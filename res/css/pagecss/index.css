@@ -1,0 +1,21 @@
+#pod1 {
+  background-image: url("/images/webcontent/typewriter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  width: 337px;
+  height: 375px;
+}
+
+#pod2 {
+  background-image: url("/images/webcontent/fish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  width: 337px;
+  height: 375px;
+}
+
+.center {
+  text-align: center;
+}

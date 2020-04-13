@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/templates/pagestructure.css" />
     <link rel="stylesheet" href="css/templates/textpage.css" />
+    <link rel="stylesheet" href="css/pagecss/index.css" />
     <script src="js/index.js" defer></script>
     <title>Simon's Projects</title>
   </head>
@@ -13,13 +14,33 @@
       <ul id="navbar">
         <li><a href="/">Home Page</a></li>
         <li><a href="/projects">Projects</a></li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="how.html">How This Site Was Made</a></li>
+        <li><a href="/aboutme">About Me</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/how">How This Site Was Made</a></li>
       </ul>
     </header>
-    <main>
-      text
+    <main class="flex-container">
+      <div class="pod pod-hoverable" id="pod1">
+        <div class="fader fader-black center-children">
+          <h3 class="nomargin">Boggle Game Scorer</h3>
+          <a href="/boggle" class="btn btn-primary">Try it Out</a>
+          <p class="lrmargin nomargin center-text">
+            Score your game of boggle on this mini web app. You can even
+            customise how your game is scored.
+          </p>
+        </div>
+      </div>
+
+      <div class="pod pod-hoverable" id="pod2">
+        <div class="fader fader-black center-children">
+          <h3 class="nomargin">Fishy Game</h3>
+          <a href="/fishy" class="btn btn-primary">Try it Out</a>
+          <p class="lrmargin nomargin center-text">
+            Eat or be eaten in this game of fish survival.
+          </p>
+        </div>
+      </div>
+      <div class="pod"></div>
     </main>
   </body>
 </html>

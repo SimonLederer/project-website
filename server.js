@@ -13,3 +13,8 @@ app.get("/", (req, res) => {
 app.get("/projects", (req, res) => {
   res.sendFile(__dirname + "/res/sites/projects.html");
 });
+
+// Catching 404s -- Keep this at the bottom
+app.use(function (req, res, next) {
+  res.status(404).send("Sorry I can't find that!");
+});
